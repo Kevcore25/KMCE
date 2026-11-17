@@ -1,0 +1,12 @@
+[tool.fastapi]
+entrypoint = "server.server:app"
+
+[project]
+name = "kmce"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]",
+    "dnspython",
+    "sqlmodel>=0.0.50",
+]

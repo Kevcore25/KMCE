@@ -1,0 +1,5 @@
+fastapi==0.163.1
+fastapi-cli==0.0.34
+fastapi-cloud-cli==0.28.0
+dnspython
+sqlmodel>=0.0.50
